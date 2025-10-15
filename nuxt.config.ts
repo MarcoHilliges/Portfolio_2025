@@ -4,7 +4,13 @@ export default defineNuxtConfig({
   components: true,
   devtools: { enabled: true },
 
-  modules: ["@nuxt/eslint", "@nuxtjs/robots", "@nuxtjs/i18n", "@nuxt/image"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxtjs/robots",
+    "@nuxtjs/i18n",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+  ],
 
   i18n: {
     vueI18n: "./i18n.config.ts",
@@ -18,5 +24,10 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: "i18n_redirected",
     },
+  },
+
+  css: ["~/assets/styles/general.scss"],
+  tailwindcss: {
+    exposeConfig: true,
   },
 });

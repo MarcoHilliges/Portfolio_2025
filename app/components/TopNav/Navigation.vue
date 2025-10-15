@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-    <ul>
+    <ul class="flex gap-12">
         <li><NuxtLink to="/">{{ t("portfolio.start") }}</NuxtLink></li>
         <li><NuxtLink to="/skills">{{ t("portfolio.skills") }}</NuxtLink></li>
         <li><NuxtLink to="/projects">{{ t("portfolio.projects") }}</NuxtLink></li>
