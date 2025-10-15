@@ -3,5 +3,6 @@
   "portfolio": "Portfolio",
   "projects": "Projekte",
   "skills": "Skills",
-  "start": "Start"
+  "start": "Start",
+  "welcomeText": "Hi,\nich bin <span class=\"text-animation\">Marco</span> Hilliges\nSoftware-Entwickler"
 }

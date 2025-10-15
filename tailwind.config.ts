@@ -3,11 +3,17 @@ function pxToRem(px: number, base = 16) {
 }
 
 module.exports = {
-    darkMode: 'selector',
+  prefix: "",
+  mode: "jit",
+  darkMode: "selector",
   fontFamily: {
     sans: ["Poppins", "sans-serif"],
   },
-  content: [],
+  content: [
+    "./app/components/**/*.{vue,js,ts}",
+    "./app/layouts/**/*.vue",
+    "./app/pages/**/*.vue",
+  ],
   theme: {
     container: {
       center: true,
@@ -47,7 +53,7 @@ module.exports = {
         },
       },
       fontSize: {
-        h1: pxToRem(34),
+        h1: pxToRem(50),
         h2: pxToRem(18),
         h3: pxToRem(16),
         h4: pxToRem(12),
