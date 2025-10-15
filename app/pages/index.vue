@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import TopNav from '~/components/TopNav/TopNav.vue';
-
 const { t } = useI18n()
 
 useHead({

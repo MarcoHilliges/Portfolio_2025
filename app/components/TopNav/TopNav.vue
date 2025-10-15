@@ -6,7 +6,7 @@ const { t } = useI18n();
 
 <template>
   <div>
-    <AppIcon />
+    <img src="~/assets/images/logo.png" alt="Logo" height="50" />
     <Navigation />
   </div>
 </template>
