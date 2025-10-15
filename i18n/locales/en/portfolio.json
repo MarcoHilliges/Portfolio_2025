@@ -1,3 +1,7 @@
 {
-    "portfolio": "Portfolio"
+  "aboutMe": "About me",
+  "portfolio": "Portfolio",
+  "projects": "Projects",
+  "skills": "Skills",
+  "start": "Start"
 }
