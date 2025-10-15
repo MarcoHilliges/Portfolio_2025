@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxtjs/robots", "@nuxtjs/i18n"],
+  modules: ["@nuxt/eslint", "@nuxtjs/robots", "@nuxtjs/i18n", "@nuxt/image"],
   i18n: {
     vueI18n: "./i18n.config.ts",
     defaultLocale: "en",
