@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const props = defineProps<{
-  skills: { name: string; iconPath?: string }[];
+  skills: { name: string; icon?: string }[];
   title: string;
 }>();
 

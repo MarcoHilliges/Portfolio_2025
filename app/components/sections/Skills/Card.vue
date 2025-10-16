@@ -8,13 +8,20 @@ const { t } = useI18n();
 
 <template>
   <div
-    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center bg-pageDark dark:bg-page text-primary-light dark:text-primary font-semibold"
+    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center font-semibold colors"
   >
     <div
-      class="absolute top-[-30px] h-60 w-60 bg-pageDark dark:bg-page text-primary-light dark:text-primary font-semibold border rounded-full flex items-center justify-center"
+      v-if="props.skill.icon"
+      class="absolute top-[-30px] h-60 w-60 font-semibold border rounded-full flex items-center justify-center shadow-md colors"
     >
-      test
+      <img :src="props.skill.icon" class="h-36" />
     </div>
     <span>{{ props.skill.name }}</span>
   </div>
 </template>
+
+<style scoped>
+.colors {
+  @apply bg-pageDark dark:bg-page text-primary-light dark:text-primary;
+}
+</style>

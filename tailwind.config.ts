@@ -24,7 +24,9 @@ module.exports = {
       },
       colors: {
         page: "#fffaeb",
+        page50: "#fffaebcc",
         pageDark: "#00000d",
+        pageDark50: "#00000dcc",
 
         primary: {
           DEFAULT: "#010029",

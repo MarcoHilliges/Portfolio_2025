@@ -1,36 +1,52 @@
 <script lang="ts" setup>
+import JSIcon from "~/assets/images/JavaScript.png"
+import TSIcon from "~/assets/images/TypeScript.png"
+// import VueIcon from "~/assets/images/Vue.png"
+// import NuxtIcon from "~/assets/images/Nuxt.png"
+import HTMLIcon from "~/assets/images/HTML.png"
+import CSSIcon from "~/assets/images/CSS.png"
+import SCSSIcon from "~/assets/images/SCSS.png"
+// import TailwindIcon from "~/assets/images/Tailwind.png"
+
+import GitIcon from "~/assets/images/git.png"
+import MicrocontrollerIcon from "~/assets/images/microcontroller.png"
+
+
 const { t } = useI18n();
 
 const frontendSkills = [
-  { name: "JavaScript", iconPath: "~/assets/images/js.png" },
-  { name: "TypeScript", iconPath: "~/assets/images/ts.png" },
-  { name: "Vue.js", iconPath: "~/assets/images/vue.png" },
-  { name: "Nuxt.js", iconPath: "~/assets/images/nuxt.png" },
-  { name: "HTML", iconPath: "~/assets/images/html.png" },
-  { name: "CSS", iconPath: "~/assets/images/css.png" },
-  { name: "SCSS", iconPath: "~/assets/images/scss.png" },
-  { name: "Tailwind CSS", iconPath: "~/assets/images/tailwind.png" },
+  { name: "JavaScript", icon: JSIcon },
+  { name: "TypeScript", icon: TSIcon },
+  { name: "Vue.js" },
+  { name: "Nuxt.js"},
+  { name: "HTML", icon: HTMLIcon },
+  { name: "CSS", icon: CSSIcon },
+  { name: "SCSS", icon: SCSSIcon },
+  { name: "Tailwind CSS" },
 ];
 
 const backendSkills = [
-  { name: "C#", iconPath: "~/assets/images/csharp.png" },
-  { name: ".NET", iconPath: "~/assets/images/dotnet.png" },
-  { name: "Node.js", iconPath: "~/assets/images/node.png" },
-  { name: "Docker", iconPath: "~/assets/images/docker.png" },
-  { name: "MySQL", iconPath: "~/assets/images/mysql.png" },
-  { name: "Microservices", iconPath: "~/assets/images/microservices.png" },
+  { name: "C#" },
+  { name: ".NET" },
+  { name: "Node.js" },
+  { name: "Docker" },
+  { name: "MySQL" },
+  { name: "Microservices" },
 ];
 
 const sideSkills = [
-  { name: "Git", iconPath: "~/assets/images/git.png" },
-  { name: "GitHub", iconPath: "~/assets/images/github.png" },
-  { name: "Figma", iconPath: "~/assets/images/figma.png" },
-  { name: "Scrum", iconPath: "~/assets/images/scrum.png" },
+  { name: "Git", icon: GitIcon },
+  { name: "GitHub" },
+  { name: "Figma" },
+  { name: "Scrum" },
+  { name: t("portfolio.microcontrollers"), icon: MicrocontrollerIcon },
+  { name: "Arduino" },
+  { name: "Raspberry Pi" },
 ];
 </script>
 
 <template>
-  <div class="flex flex-col items-center gap-24">
+  <div id="skills" class="flex flex-col items-center gap-24">
     <SectionsSkillsArea
       :skills="frontendSkills"
       :title="t('portfolio.frontend')"
