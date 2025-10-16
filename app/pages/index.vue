@@ -4,18 +4,11 @@ const { t } = useI18n();
 useHead({
   title: t("portfolio.portfolio"),
 });
-
-
 </script>
 
 <template>
-  <div class="">
-    <ThemeSwitches />
-    <TopNav />
-
+  <div>
     <SectionsStart />
-    
-
-    
+    <SectionsSkills />
   </div>
 </template>

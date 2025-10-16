@@ -1,5 +1,8 @@
 <template>
-  <div class="p-16">
+  <div class="relative">
+    <ThemeSwitches />
+    <TopNav />
+
     <NuxtPage />
   </div>
 </template>

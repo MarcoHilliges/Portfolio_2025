@@ -66,14 +66,16 @@ watch(themeModeInLocalStorage, (newValue) => {
 </script>
 
 <template>
-  <div class="flex gap-6">
-    <button
-      v-for="mode in modes"
-      :key="mode.value"
-      @click="toggleThemeMode(mode.value)"
-      class="border rounded p-4"
-    >
-      <component :is="mode.icon" />
-    </button>
+  <div class="fixed top-0 right-0 h-full z-50">
+    <div class="flex flex-col justify-center h-full gap-6 mr-16">
+      <button
+        v-for="mode in modes"
+        :key="mode.value"
+        @click="toggleThemeMode(mode.value)"
+        class="border rounded p-4"
+      >
+        <component :is="mode.icon" />
+      </button>
+    </div>
   </div>
 </template>
