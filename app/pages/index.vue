@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col gap-48 pb-48">
     <SectionsStart />
     <SectionsSkills />
     <SectionsProjects />

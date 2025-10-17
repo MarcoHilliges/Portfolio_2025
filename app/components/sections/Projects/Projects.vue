@@ -102,7 +102,7 @@ const projects = [
 <template>
   <div id="projects" class="flex flex-col items-center gap-24">
     <h1>{{ t("portfolio.projects") }}</h1>
-    <div class="flex flex-col items-center max-w-[1000px] gap-24">
+    <div class="flex flex-col items-center max-w-[1300px] gap-24">
       <div
         v-for="projectsCollection in projects"
         :key="projectsCollection.year"
