@@ -10,5 +10,6 @@ useHead({
   <div>
     <SectionsStart />
     <SectionsSkills />
+    <SectionsProjects />
   </div>
 </template>

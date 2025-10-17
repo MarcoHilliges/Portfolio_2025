@@ -1,11 +1,22 @@
 {
   "aboutMe": "Über mich",
   "backend": "Backend",
+  "can_bus_monitor_description": "Dieses Projekt befindet sich derzeit in der Planung.\n\nEs ist geplant das Can-Bus Signal mit einem ESP32\nan der OBD-Dose abzugreifen und\ndie frei verfügbaren Daten auf einem kleine \nexterne Display anzuzeigen.\n\nEs wird auf C++ und Node.js basieren.",
+  "crm_description": "Managementsoftware\nbasiert auf Angular und Firebase",
+  "demo": "zur Demo",
+  "el_pollo_loco_description": "Ein kleines Jump and Run Game",
   "frontend": "Frontend",
+  "join_kanban_board_description": "Work-Management-Software",
   "microcontrollers": "Mikrocontroller",
+  "pokedex_description": "Basiert auf Rest API zum Datenabruf",
   "portfolio": "Portfolio",
+  "portfolio_description": "basiert auf Nuxt 4",
   "projects": "Projekte",
+  "ring_of_fire_description": "Online-Drink-Game für Freunde",
   "skills": "Skills",
+  "smart_home_system_description": "Dieses Projekt befindet sich derzeit in der Planung.\nEs wird auf C++ und Node.js basieren.",
   "start": "Start",
-  "welcomeText": "Hi,\nich bin <span class=\"text-animation\">Marco</span> Hilliges\nSoftware-Entwickler"
+  "visit": "Besuchen",
+  "welcomeText": "Hi,\nich bin <span class=\"text-animation\">Marco</span> Hilliges\nSoftware-Entwickler",
+  "zeiterfassung_description": "Die App bietet die Möglichkeit \nseine Arbeitszeit zu tracken.\n\nDie Daten werden nur lokal auf dem Gerät gespeichert."
 }

@@ -7,7 +7,7 @@ const { t } = useI18n();
     id="start"
     class="flex justify-evenly items-center gap-24 h-[calc(100vh-60px)]"
   >
-    <h1 class="whitespace-pre" v-html="t('portfolio.welcomeText')"></h1>
+    <span class="text-[50px] font-bold whitespace-pre" v-html="t('portfolio.welcomeText')"></span>
     <img class="rounded-full" src="~/assets/images/profile.png" alt="" />
   </div>
 </template>
