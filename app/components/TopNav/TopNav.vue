@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 left-0 right-0 z-50 ">
+  <div class="fixed top-0 left-0 right-0 z-50 ">
     <div class="flex items-center justify-between px-24 py-16 bg-liniar bg-page50 dark:bg-pageDark50">
       <img
         class="h-[60px] dark:hidden"
@@ -12,6 +12,7 @@
         alt="Logo"
       />
       <TopNavNavigation />
+      <TopNavThemeSwitches />
     </div>
   </div>
 </template>
