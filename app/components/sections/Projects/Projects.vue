@@ -5,6 +5,7 @@ import JoinKanbanBoardImage from "~/assets/images/join.jpg";
 import RingOfFireImage from "~/assets/images/ring-of-fire.jpg";
 import CRMImage from "~/assets/images/crm.jpg";
 import NewProjectImage from "~/assets/images/newProject.jpg";
+import ZeiterfassungImage from "~/assets/images/zeiterfassung.jpg";
 
 const { t } = useI18n();
 
@@ -44,7 +45,7 @@ const projects = [
       {
         name: "Zeiterfassung",
         description: t("portfolio.zeiterfassung_description"),
-        image: NewProjectImage,
+        image: ZeiterfassungImage,
         github: "https://github.com/MarcoHilliges/zeiterfassung",
         link: "https://zeiterfassung.marcos-tech.de/",
         demo: false,
