@@ -11,5 +11,6 @@ useHead({
     <SectionsStart />
     <SectionsSkills />
     <SectionsProjects />
+    <SectionsAboutMe />
   </div>
 </template>
