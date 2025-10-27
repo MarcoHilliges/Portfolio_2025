@@ -2,6 +2,7 @@
   "aboutMe": "About me",
   "backend": "Backend",
   "can_bus_monitor_description": "This project is currently in the planning stage.\n\nThe plan is to use an ESP32 to tap the CAN bus signal \nat the OBD port and display the freely available data \non a small external display.\n\nIt will be based on C++ and Node.js.",
+  "contactMe": "Contact",
   "crm_description": "Managementsofware based on\nAngular and Firebase",
   "demo": "Demo",
   "el_pollo_loco_description": "A little jump and run game",

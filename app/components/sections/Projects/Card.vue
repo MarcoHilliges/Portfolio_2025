@@ -13,7 +13,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div class="relative w-[400px] h-[300px] rounded-xl overflow-hidden">
+  <div class="card-shadow relative w-[400px] h-[300px] rounded-xl overflow-hidden">
     <img
       :src="project.image"
       :alt="project.name"
@@ -27,10 +27,20 @@ const { t } = useI18n();
       <p class="text-center whitespace-pre">{{ project.description }}</p>
 
       <div class="flex gap-24">
-        <NuxtLink v-if="project.github" :href="project.github" target="_blank" class="button_link">
+        <NuxtLink
+          v-if="project.github"
+          :href="project.github"
+          target="_blank"
+          class="button_link"
+        >
           GitHub
         </NuxtLink>
-        <NuxtLink v-if="project.link" :href="project.link" target="_blank" class="button_link">
+        <NuxtLink
+          v-if="project.link"
+          :href="project.link"
+          target="_blank"
+          class="button_link"
+        >
           {{ project.demo ? t("portfolio.demo") : t("portfolio.visit") }}
         </NuxtLink>
       </div>
@@ -39,6 +49,10 @@ const { t } = useI18n();
 </template>
 
 <style scoped>
+.card-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
 .button_link {
   @apply w-[150px] h-[50px] flex justify-center items-center border rounded-lg hover:text-neutral-300 hover:border-neutral-300 active:text-neutral-500 active:border-neutral-500;
 }

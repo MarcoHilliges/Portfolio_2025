@@ -1,12 +1,36 @@
 <script lang="ts" setup>
-const { t } = useI18n()
+const { t } = useI18n();
+
+const navLinks = [
+  {
+    id: "#start",
+    text: t("portfolio.start"),
+  },
+  {
+    id: "#skills",
+    text: t("portfolio.skills"),
+  },
+  {
+    id: "#projects",
+    text: t("portfolio.projects"),
+  },
+  {
+    id: "#aboutMe",
+    text: t("portfolio.aboutMe"),
+  },
+];
 </script>
 
 <template>
-    <ul class="flex gap-12">
-        <li><NuxtLink to="#start">{{ t("portfolio.start") }}</NuxtLink></li>
-        <li><NuxtLink to="#skills">{{ t("portfolio.skills") }}</NuxtLink></li>
-        <li><NuxtLink to="#projects">{{ t("portfolio.projects") }}</NuxtLink></li>
-        <li><NuxtLink to="#aboutMe">{{ t("portfolio.aboutMe") }}</NuxtLink></li>
-    </ul>
+  <ul class="flex font-bold">
+    <li v-for="link in navLinks" :key="link.id" class="border-r px-8 last:border-none">
+      <NuxtLink :to="link.id" class="nav-link">{{ link.text }}</NuxtLink>
+    </li>
+  </ul>
 </template>
+
+<style scoped>
+.nav-link {
+  @apply hover:text-primary-hover active:text-primary-active dark:hover:text-primary-lightHover dark:active:text-primary-lightActive;
+}
+</style>

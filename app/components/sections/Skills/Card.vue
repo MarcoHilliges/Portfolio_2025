@@ -8,7 +8,7 @@ const { t } = useI18n();
 
 <template>
   <div
-    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center font-semibold colors"
+    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center font-semibold colors light-effect"
   >
     <div
       v-if="props.skill.icon"
@@ -22,6 +22,6 @@ const { t } = useI18n();
 
 <style scoped>
 .colors {
-  @apply bg-pageDark dark:bg-page text-primary-light dark:text-primary;
+  @apply bg-blue-300 dark:bg-blue-100 text-primary;
 }
 </style>

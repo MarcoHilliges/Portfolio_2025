@@ -54,7 +54,7 @@ const sideSkills = [
 </script>
 
 <template>
-  <div id="skills" class="flex flex-col items-center gap-24">
+  <div id="skills" class="flex flex-col items-center gap-24 pt-[100px]">
     <h1>{{ t('portfolio.skills') }}</h1>
     <SectionsSkillsArea
       :skills="frontendSkills"

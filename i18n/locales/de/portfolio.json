@@ -2,6 +2,7 @@
   "aboutMe": "Über mich",
   "backend": "Backend",
   "can_bus_monitor_description": "Dieses Projekt befindet sich derzeit in der Planung.\n\nEs ist geplant das Can-Bus Signal mit einem ESP32\nan der OBD-Dose abzugreifen und\ndie frei verfügbaren Daten auf einem kleine \nexterne Display anzuzeigen.\n\nEs wird auf C++ und Node.js basieren.",
+  "contactMe": "Kontaktieren",
   "crm_description": "Managementsoftware\nbasiert auf Angular und Firebase",
   "demo": "zur Demo",
   "el_pollo_loco_description": "Ein kleines Jump and Run Game",

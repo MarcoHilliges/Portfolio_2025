@@ -30,7 +30,12 @@ module.exports = {
 
         primary: {
           DEFAULT: "#010029",
+          hover: "#0000b3",
+          active: "#000080",
           light: "#f0f0f0",
+          lightHover: "#cecedd",
+          lightActive: "#b6b6cf",
+
         },
         secondary: {
           DEFAULT: "#1489FE",
@@ -40,6 +45,8 @@ module.exports = {
         },
         success: {
           DEFAULT: "#15D3A5",
+          hover: "#0EC28C",
+          active: "#0AA876",
         },
         warning: {
           DEFAULT: "#EB7F00",
