@@ -1,5 +1,13 @@
 {
   "aboutMe": "Über mich",
+  "aboutMeFirstDescription": "Ich liebe es, Code von der ersten Zeile an zu schreiben und Projekte voranzutreiben, scheue mich aber auch nicht davor, mich in unbekannten Code einzuarbeiten und Fehler zu beheben.\n\nIn meiner Freizeit spiele ich leidenschaftlich gern Videospiele und gehe zum Jugger, um mich körperlich auszugleichen.",
+  "aboutMeSectionFourTitle": "Neuer beruflicher Weg",
+  "aboutMeSectionOne": "Meine ersten Programmiererfahrungen sammelte ich während meiner Ausbildung, wo ich kleinere Skripte für Siemens LOGO! und S7 schreiben konnte.\nDiese Erfahrung hat mich nachhaltig geprägt.",
+  "aboutMeSectionOneTitle": "Beginn einer Reise",
+  "aboutMeSectionThree": "In der Developer Akademie konnte ich mich dank der professionellen Unterstützung der Coaches sehr schnell weiterentwickeln und meine Fähigkeiten nun sicher anwenden.\nIch habe dort eine Vielzahl von Projekten umgesetzt, sowohl eigenständig als auch in kleinen Teams.",
+  "aboutMeSectionThreeTitle": "Weiterbildung",
+  "aboutMeSectionTwo": "In meiner Freizeit programmiere ich Mikrocontroller und integriere sie in mein Smart Home.\n\nAußerdem entwickle ich eine Benutzeroberfläche, die alle relevanten Sensordaten anzeigt und Steuerungsmöglichkeiten bietet.",
+  "aboutMeSectionTwoTitle": "Meine neue Leidenschaft",
   "backend": "Backend",
   "can_bus_monitor_description": "Dieses Projekt befindet sich derzeit in der Planung.\n\nEs ist geplant das Can-Bus Signal mit einem ESP32\nan der OBD-Dose abzugreifen und\ndie frei verfügbaren Daten auf einem kleine \nexterne Display anzuzeigen.\n\nEs wird auf C++ und Node.js basieren.",
   "contactMe": "Kontaktieren",

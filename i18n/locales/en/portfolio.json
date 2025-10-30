@@ -1,5 +1,13 @@
 {
   "aboutMe": "About me",
+  "aboutMeFirstDescription": "I love writing code from the first line and moving projects forward, but I'm also not afraid to delve into unfamiliar code and fix bugs.\n\nIn my free time I'm a passionate gamer and enjoy playing Jugger to maintain my physical balance.",
+  "aboutMeSectionFourTitle": "New career path",
+  "aboutMeSectionOne": "I had my first experience with programming during my apprenticeship, where I was able to write small scripts for the Siemens LOGO! and S7.\nThis experience stayed with me.",
+  "aboutMeSectionOneTitle": "My Journey Began",
+  "aboutMeSectionThree": "In the Developer Akademie, with the professional help of the Coaches, I was able to develop very quickly to a level where I can now safely master my skills and apply them.\nI implemented a wide variety of projects there, both on my own and in small teams.",
+  "aboutMeSectionThreeTitle": "Keep On Learning",
+  "aboutMeSectionTwo": "In my spare time, I program microcontrollers and integrate them into my smart home.\n\nFurthermore, I am developing a user interface in which all relevant sensor data is displayed and there is the possibility of control.",
+  "aboutMeSectionTwoTitle": "My New Passion",
   "backend": "Backend",
   "can_bus_monitor_description": "This project is currently in the planning stage.\n\nThe plan is to use an ESP32 to tap the CAN bus signal \nat the OBD port and display the freely available data \non a small external display.\n\nIt will be based on C++ and Node.js.",
   "contactMe": "Contact",

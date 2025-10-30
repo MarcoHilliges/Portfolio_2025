@@ -1,34 +1,56 @@
 <script setup>
+import { SmilePlus, Heart, GraduationCap, PlaneTakeoff } from 'lucide-vue-next';
 const { t } = useI18n();
+
+const sections = [
+  {
+    title: t("portfolio.aboutMeSectionOneTitle"),
+    icon: SmilePlus,
+    text: t("portfolio.aboutMeSectionOne"),
+  },
+  {
+    title: t("portfolio.aboutMeSectionTwoTitle"),
+    icon: Heart,
+    text: t("portfolio.aboutMeSectionTwo"),
+  },
+  {
+    title: t("portfolio.aboutMeSectionThreeTitle"),
+    icon: GraduationCap,
+    text: t("portfolio.aboutMeSectionThree"),
+  },
+  {
+    title: t("portfolio.aboutMeSectionFourTitle"),
+    icon: PlaneTakeoff,
+    text: t("portfolio.aboutMeSectionFour"),
+  },
+];
 </script>
 
 <template>
-  <div  id="aboutMe" class="section page-2">
+  <div id="aboutMe" class="section page-2">
     <h1>
       {{ t("portfolio.aboutMe") }}
     </h1>
 
-    <div>
-      <div>image here</div>
-      <div>
-        <p>
+    <div class="flex gap-16">
+      <div class="w-1/2 flex justify-center items-center">image here</div>
+      <div class="w-1/2">
+        <p class="whitespace-pre-wrap">
           {{ t("portfolio.aboutMeFirstDescription") }}
         </p>
       </div>
     </div>
 
-    <div>
-      <div>
-        <!-- Start der "Reise" -->
-        2008 Erste Programmiererfahrung mit Siemens S7 und Logo! in der
-        Ausbildung zum Mechatroniker
+    <div class="flex gap-16">
+      <div v-for="section in sections" :key="section.title">
+        <component :is="section.icon" :size="24" />
+        <h3>
+          {{ section.title }}
+        </h3>
+        <p class="whitespace-pre-wrap">
+          {{ section.text }}
+        </p>
       </div>
-
-      <div>2015 Meisterbrief im Kraftfahrzeugtechniker-Handwerk</div>
-
-      <div>2022 Weiterbildung an der Developer Akademie zum Web-Developer</div>
-
-      <div>2022 Anstellung als Software-Entwickler bei Sellerpoint GmbH</div>
     </div>
   </div>
 </template>
