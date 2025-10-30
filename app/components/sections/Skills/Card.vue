@@ -8,20 +8,14 @@ const { t } = useI18n();
 
 <template>
   <div
-    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center font-semibold colors light-effect"
+    class="relative border rounded-xl w-[180px] h-[100px] my-36 mx-18 flex items-center justify-center font-semibold card-color light-effect"
   >
     <div
       v-if="props.skill.icon"
-      class="absolute top-[-30px] h-60 w-60 font-semibold border rounded-full flex items-center justify-center shadow-md colors"
+      class="absolute top-[-30px] h-60 w-60 font-semibold border rounded-full flex items-center justify-center shadow-md card-color"
     >
       <img :src="props.skill.icon" class="h-36" />
     </div>
     <span>{{ props.skill.name }}</span>
   </div>
 </template>
-
-<style scoped>
-.colors {
-  @apply bg-blue-300 dark:bg-blue-100 text-primary;
-}
-</style>
