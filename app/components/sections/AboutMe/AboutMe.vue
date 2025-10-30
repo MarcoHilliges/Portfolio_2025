@@ -3,7 +3,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div  id="aboutMe" class="flex flex-col items-center gap-24 pt-[100px]">
+  <div  id="aboutMe" class="section page-2">
     <h1>
       {{ t("portfolio.aboutMe") }}
     </h1>

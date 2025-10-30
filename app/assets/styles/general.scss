@@ -3,10 +3,29 @@
 
 body {
   @apply bg-page text-primary dark:bg-pageDark dark:text-primary-light;
+
+  .page-2 {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(255, 250, 235, 0) 0%,
+      rgba(255, 250, 235, 1) 100px,
+      rgba(255, 250, 235, 1) calc(100% - 100px),
+      rgba(255, 250, 235, 0) 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(255, 250, 235, 0) 0%,
+      rgba(255, 250, 235, 1) 100px,
+      rgba(255, 250, 235, 1) calc(100% - 100px),
+      rgba(255, 250, 235, 0) 100%
+    );
+
+    @apply bg-page2 dark:bg-pageDark2 pt-[100px] pb-[100px];
+  }
 }
 
-body.theme-change {
-  @apply transition-colors duration-300 ease-in-out;
+.section {
+  @apply flex flex-col items-center gap-24;
 }
 
 h1 {

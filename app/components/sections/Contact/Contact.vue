@@ -4,7 +4,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div id="contact" class="flex flex-col items-center gap-24">
+  <div id="contact" class="section">
     <a href="mailto:marco.hilliges@gmx.de" class="button light-effect">
       <Mail />
       {{ t("portfolio.contactMe") }}

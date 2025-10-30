@@ -24,8 +24,10 @@ module.exports = {
       },
       colors: {
         page: "#fffaeb",
+        page2: "#fff6db",
         page50: "#fffaebcc",
         pageDark: "#00000d",
+        pageDark2: "#00001b",
         pageDark50: "#00000dcc",
 
         primary: {
@@ -35,7 +37,6 @@ module.exports = {
           light: "#f0f0f0",
           lightHover: "#cecedd",
           lightActive: "#b6b6cf",
-
         },
         secondary: {
           DEFAULT: "#1489FE",

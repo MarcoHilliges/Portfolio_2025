@@ -101,7 +101,7 @@ const projects = [
 </script>
 
 <template>
-  <div id="projects" class="flex flex-col items-center gap-24 pt-[100px]">
+  <div id="projects" class="section">
     <h1>{{ t("portfolio.projects") }}</h1>
     <div class="flex flex-col items-center max-w-[1300px] gap-24">
       <div

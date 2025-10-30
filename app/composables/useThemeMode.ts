@@ -33,11 +33,7 @@ export const useThemeMode = () => {
 
   const toggleThemeMode = (value: ThemeMode) => {
     setThemeModeInLocalStorage(value);
-    document.body?.classList.add("theme-change");
     themeModeInLocalStorage.value = value;
-    setTimeout(() => {
-      document.body?.classList.remove("theme-change");
-    }, 600);
   };
 
   const setThemeModeInLocalStorage = (value: ThemeMode) => {

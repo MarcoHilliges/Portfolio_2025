@@ -7,7 +7,7 @@ const { t } = useI18n();
 <template>
   <div class="fixed top-0 left-0 right-0 z-50">
     <div
-      class="flex items-center justify-between px-24 py-16 bg-liniar bg-page50 dark:bg-pageDark50"
+      class="flex items-center justify-between px-24 py-16 bg-page50 dark:bg-pageDark50 gradient"
     >
       <div class="w-1/4">
         <img
@@ -36,3 +36,20 @@ const { t } = useI18n();
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.gradient {
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(255, 250, 235, 0) 0%,
+    rgba(255, 250, 235, 0.8) 16px,
+    rgba(255, 250, 235, 1) 24px
+  );
+  mask-image: linear-gradient(
+    to top,
+    rgba(255, 250, 235, 0) 0%,
+    rgba(255, 250, 235, 0.8) 16px,
+    rgba(255, 250, 235, 1) 24px
+  );
+}
+</style>
