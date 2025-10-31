@@ -1,6 +1,7 @@
 {
   "aboutMe": "About me",
   "aboutMeFirstDescription": "I love writing code from the first line and moving projects forward, but I'm also not afraid to delve into unfamiliar code and fix bugs.\n\nIn my free time I'm a passionate gamer and enjoy playing Jugger to maintain my physical balance.",
+  "aboutMeSectionFour": "I was able to get started at Sellerpoint as a software developer and gain a lot of experience there.\nInitially I was responsible for developing Nuxt components in Nuxt 2 and 3. \nLater I took responsibility for parts of the feature development and a large part of the frontend. \n\nA special highlight was leading the redevelopment of the entire frontend in Nuxt 3 as a monorepo with GraphQL and mock server.",
   "aboutMeSectionFourTitle": "New career path",
   "aboutMeSectionOne": "I had my first experience with programming during my apprenticeship, where I was able to write small scripts for the Siemens LOGO! and S7.\nThis experience stayed with me.",
   "aboutMeSectionOneTitle": "My Journey Began",
@@ -26,6 +27,6 @@
   "smart_home_system_description": "This project is currently in planning.\nIt will be based on C++ and Node.js.",
   "start": "Start",
   "visit": "Visit",
-  "welcomeText": "Hi,\n\nI'm Marco Hilliges\n\nSoftware developer",
+  "welcomeText": "Hi,\nI'm <span class=\"text-animation\">Marco</span> Hilliges\nSoftware developer",
   "zeiterfassung_description": "The app offers the ability to track your working hours.\n\nThe data is only stored locally on the device."
 }

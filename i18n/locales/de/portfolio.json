@@ -1,6 +1,7 @@
 {
   "aboutMe": "Über mich",
   "aboutMeFirstDescription": "Ich liebe es, Code von der ersten Zeile an zu schreiben und Projekte voranzutreiben, scheue mich aber auch nicht davor, mich in unbekannten Code einzuarbeiten und Fehler zu beheben.\n\nIn meiner Freizeit spiele ich leidenschaftlich gern Videospiele und gehe zum Jugger, um mich körperlich auszugleichen.",
+  "aboutMeSectionFour": "Ich konnte bei Sellerpoint als Softwareentwickler durchstarten und dort sehr viel Erfahrung sammeln.\nAnfangs war ich für die Entwicklung von Nuxt-Komponenten in Nuxt 2 und 3 verantwortlich. Später übernahm ich die Verantwortung über Teile der Feature-Entwicklung und über einen großen Teil des Frontends. \nEin besonderes Highlight war die Leitung der Neuentwicklung des kompletten Frontends in Nuxt 3 als Monorepo mit GraphQL und Mock-Server.",
   "aboutMeSectionFourTitle": "Neuer beruflicher Weg",
   "aboutMeSectionOne": "Meine ersten Programmiererfahrungen sammelte ich während meiner Ausbildung, wo ich kleinere Skripte für Siemens LOGO! und S7 schreiben konnte.\nDiese Erfahrung hat mich nachhaltig geprägt.",
   "aboutMeSectionOneTitle": "Beginn einer Reise",

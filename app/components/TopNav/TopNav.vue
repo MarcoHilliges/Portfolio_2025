@@ -31,6 +31,9 @@ const { t } = useI18n();
         >
           <Mail :size="16" />
         </a>
+
+        <TopNavLanguageSwitches />
+
         <TopNavThemeSwitches />
       </div>
     </div>

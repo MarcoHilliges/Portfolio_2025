@@ -2,7 +2,7 @@
 import { SmilePlus, Heart, GraduationCap, PlaneTakeoff } from "lucide-vue-next";
 const { t } = useI18n();
 
-const sections = [
+const sections = computed(() => [
   {
     title: t("portfolio.aboutMeSectionOneTitle"),
     icon: SmilePlus,
@@ -23,7 +23,7 @@ const sections = [
     icon: PlaneTakeoff,
     text: t("portfolio.aboutMeSectionFour"),
   },
-];
+]);
 </script>
 
 <template>
@@ -35,8 +35,17 @@ const sections = [
 
       <div class="flex gap-16">
         <div class="w-1/2 flex justify-center items-center">
-          <img class="-mt-[50px] rounded-full h-[250px] w-[250px] object-cover" style="object-position: 0px -20px;"  src="~/assets/images/jugger-profile.jpg" alt="" />
-          <img class="-ml-[50px] mt-[50px] rounded-full h-[250px] w-[250px] object-cover" src="~/assets/images/jugger-playing.jpg" alt="" />
+          <img
+            class="-mt-[50px] rounded-full h-[250px] w-[250px] object-cover"
+            style="object-position: 0px -20px"
+            src="~/assets/images/jugger-profile.jpg"
+            alt=""
+          />
+          <img
+            class="-ml-[50px] mt-[50px] rounded-full h-[250px] w-[250px] object-cover"
+            src="~/assets/images/jugger-playing.jpg"
+            alt=""
+          />
         </div>
         <div class="w-1/2 flex items-center">
           <p class="whitespace-pre-wrap">

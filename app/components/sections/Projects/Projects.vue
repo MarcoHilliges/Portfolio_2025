@@ -9,7 +9,7 @@ import ZeiterfassungImage from "~/assets/images/zeiterfassung.jpg";
 
 const { t } = useI18n();
 
-const projects = [
+const projects = computed(() => [
   {
     year: 2025,
     projects: [
@@ -97,7 +97,7 @@ const projects = [
       },
     ],
   },
-];
+]);
 </script>
 
 <template>
