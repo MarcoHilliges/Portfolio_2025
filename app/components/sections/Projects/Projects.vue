@@ -6,6 +6,7 @@ import RingOfFireImage from "~/assets/images/ring-of-fire.jpg";
 import CRMImage from "~/assets/images/crm.jpg";
 import NewProjectImage from "~/assets/images/newProject.jpg";
 import ZeiterfassungImage from "~/assets/images/zeiterfassung.jpg";
+import PortfolioImage from "~/assets/images/portfolio-2025.jpg";
 
 const { t } = useI18n();
 
@@ -16,7 +17,7 @@ const projects = computed(() => [
       {
         name: "Portfolio",
         description: t("portfolio.portfolio_description"),
-        image: NewProjectImage,
+        image: PortfolioImage,
         github: "https://github.com/MarcoHilliges/Portfolio_2025",
         link: null,
         demo: false,

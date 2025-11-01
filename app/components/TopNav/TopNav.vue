@@ -9,7 +9,7 @@ const { t } = useI18n();
     <div
       class="flex items-center justify-between px-24 py-16 bg-page50 dark:bg-pageDark50 gradient"
     >
-      <div class="w-1/4">
+      <div class="w-[100px] md:w-1/4">
         <img
           class="h-[60px] dark:hidden"
           src="~/assets/images/logo.png"
@@ -24,7 +24,9 @@ const { t } = useI18n();
 
       <TopNavNavigation />
 
-      <div class="flex items-center gap-24 w-1/4 justify-end">
+      <div
+        class="flex flex-col-reverse md:flex-row items-end md:items-center gap-4 md:gap-24 w-[100px] md:w-1/4 justify-end"
+      >
         <a
           href="mailto:marco.hilliges@gmx.de"
           class="nav-icon-button selectable"

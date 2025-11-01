@@ -12,13 +12,13 @@ const availableLocales = computed(() => {
       v-for="language in locales"
       :key="language.code"
       @click="setLocale(language.code)"
-      class="nav-icon-button"
+      class="nav-icon-button !p-0 text-12 w-26 h-26"
       :class="{
         'is-active': locale === language.code,
         selectable: locale !== language.code,
       }"
     >
-      {{ language.code }}
+      {{ language.code.toUpperCase() }}
     </button>
   </div>
 </template>

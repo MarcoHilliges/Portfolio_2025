@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const { t } = useI18n();
 
-const navLinks = [
+const navLinks = computed(() => [
   {
     id: "#start",
     text: t("portfolio.start"),
@@ -18,12 +18,16 @@ const navLinks = [
     id: "#aboutMe",
     text: t("portfolio.aboutMe"),
   },
-];
+]);
 </script>
 
 <template>
   <ul class="flex font-bold">
-    <li v-for="link in navLinks" :key="link.id" class="border-r px-8 last:border-none">
+    <li
+      v-for="link in navLinks"
+      :key="link.id"
+      class="border-r px-8 last:border-none"
+    >
       <NuxtLink :to="link.id" class="nav-link">{{ link.text }}</NuxtLink>
     </li>
   </ul>

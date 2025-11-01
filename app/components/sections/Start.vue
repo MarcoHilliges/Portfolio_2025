@@ -3,14 +3,14 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div id="start" class="flex justify-evenly items-center gap-24 h-screen">
+  <div id="start" class="flex flex-col-reverse md:flex-row justify-evenly items-center gap-24 h-screen px-24">
     <span
-      class="text-[50px] font-bold whitespace-pre"
+      class="text-[32px] xl:text-[50px] font-bold whitespace-pre"
       v-html="t('portfolio.welcomeText')"
     >
     </span>
 
-    <div class="relative">
+    <div class="relative w-[400px]">
       <img class="rounded-full" src="~/assets/images/profile.png" alt="" />
 
       <div class="mirror mirror-light dark:hidden">
