@@ -1,6 +1,9 @@
 <script lang="ts" setup>
 import { Mail } from "lucide-vue-next";
 
+const props = defineProps({
+  showNav: Boolean
+})
 const { t } = useI18n();
 </script>
 
@@ -10,19 +13,21 @@ const { t } = useI18n();
       class="flex items-center justify-between px-24 py-16 bg-page50 dark:bg-pageDark50 gradient"
     >
       <div class="w-[100px] md:w-1/4">
-        <img
-          class="h-[60px] dark:hidden"
-          src="~/assets/images/logo.png"
-          alt="Logo"
-        />
-        <img
-          class="h-[60px] hidden dark:block"
-          src="~/assets/images/logo-dark.png"
-          alt="Logo"
-        />
+        <NuxtLink to="/">
+          <img
+            class="h-[60px] dark:hidden"
+            src="~/assets/images/logo.png"
+            alt="Logo"
+          />
+          <img
+            class="h-[60px] hidden dark:block"
+            src="~/assets/images/logo-dark.png"
+            alt="Logo"
+          />
+        </NuxtLink>
       </div>
 
-      <TopNavNavigation />
+      <TopNavNavigation v-if="props.showNav" />
 
       <div
         class="flex flex-col-reverse md:flex-row items-end md:items-center gap-4 md:gap-24 w-[100px] md:w-1/4 justify-end"
