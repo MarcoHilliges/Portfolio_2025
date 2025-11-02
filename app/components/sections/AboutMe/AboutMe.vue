@@ -34,20 +34,20 @@ const sections = computed(() => [
       </h1>
 
       <div class="flex flex-col lg:flex-row items-center gap-16">
-        <div class="w-1/2 min-w-[500px] flex justify-center items-center">
+        <div class="w-1/2 sm:min-w-[500px] flex justify-center items-center">
           <img
-            class="-mt-[50px] rounded-full h-[250px] w-[250px] object-cover"
+            class="-mt-[50px] rounded-full h-[100px] w-[100px] sm:h-[250px] sm:w-[250px] object-cover"
             style="object-position: 0px -20px"
             src="~/assets/images/jugger-profile.jpg"
             alt=""
           />
           <img
-            class="-ml-[50px] mt-[50px] rounded-full h-[250px] w-[250px] object-cover"
+            class="-ml-[50px] mt-[50px] rounded-full h-[100px] w-[100px] sm:h-[250px] sm:w-[250px] object-cover"
             src="~/assets/images/jugger-playing.jpg"
             alt=""
           />
         </div>
-        <div class="w-1/2 min-w-[500px] flex items-center">
+        <div class="sm:w-1/2 sm:min-w-[500px] flex items-center">
           <p class="whitespace-pre-wrap">
             {{ t("portfolio.aboutMeFirstDescription") }}
           </p>

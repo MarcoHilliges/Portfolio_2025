@@ -10,7 +10,7 @@ const { t } = useI18n();
     >
     </span>
 
-    <div class="relative w-[400px]">
+    <div class="relative w-3/4 sm:w-[400px]">
       <img class="rounded-full" src="~/assets/images/profile.png" alt="" />
 
       <div class="mirror mirror-light dark:hidden">

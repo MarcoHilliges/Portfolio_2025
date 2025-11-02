@@ -13,7 +13,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div class="card-shadow relative w-[400px] h-[300px] rounded-xl overflow-hidden">
+  <div class="card-shadow relative w-3/4 h-[200px] sm:w-[400px] sm:h-[300px] rounded-xl overflow-hidden">
     <img
       :src="project.image"
       :alt="project.name"
@@ -21,10 +21,10 @@ const { t } = useI18n();
     />
 
     <div
-      class="absolute top-0 left-0 right-0 h-full opacity-0 hover:opacity-100 transition-opacity bg-black bg-opacity-80 text-white flex flex-col justify-between items-center p-32"
+      class="absolute top-0 left-0 right-0 h-full opacity-0 hover:opacity-100 transition-opacity bg-black bg-opacity-80 text-white flex flex-col justify-between items-center sm:p-32 overflow-auto"
     >
       <h3>{{ project.name }}</h3>
-      <p class="text-center whitespace-pre">{{ project.description }}</p>
+      <p class="text-center whitespace-pre-line">{{ project.description }}</p>
 
       <div class="flex gap-24">
         <NuxtLink
@@ -54,6 +54,6 @@ const { t } = useI18n();
 }
 
 .button_link {
-  @apply w-[150px] h-[50px] flex justify-center items-center border rounded-lg hover:text-neutral-300 hover:border-neutral-300 active:text-neutral-500 active:border-neutral-500;
+  @apply sm:w-[150px] sm:h-[50px] p-4 flex justify-center items-center border rounded-lg hover:text-neutral-300 hover:border-neutral-300 active:text-neutral-500 active:border-neutral-500;
 }
 </style>

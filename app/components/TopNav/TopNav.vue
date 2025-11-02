@@ -10,17 +10,17 @@ const { t } = useI18n();
 <template>
   <div class="fixed top-0 left-0 right-0 z-50">
     <div
-      class="flex items-center justify-between px-24 py-16 bg-page50 dark:bg-pageDark50 gradient"
+      class="flex items-center justify-between  sm:px-24 py-16 bg-page50 dark:bg-pageDark50 gradient"
     >
-      <div class="w-[100px] md:w-1/4">
+      <div class="md:w-1/4">
         <NuxtLink to="/">
           <img
-            class="h-[60px] dark:hidden"
+            class="h-32 sm:h-[60px] dark:hidden"
             src="~/assets/images/logo.png"
             alt="Logo"
           />
           <img
-            class="h-[60px] hidden dark:block"
+            class="h-32 sm:h-[60px] hidden dark:block"
             src="~/assets/images/logo-dark.png"
             alt="Logo"
           />

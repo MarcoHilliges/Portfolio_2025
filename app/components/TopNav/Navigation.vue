@@ -22,7 +22,7 @@ const navLinks = computed(() => [
 </script>
 
 <template>
-  <ul class="flex font-bold">
+  <ul class="flex font-bold text-12 sm:text-16">
     <li
       v-for="link in navLinks"
       :key="link.id"
